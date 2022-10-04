@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import LPImg from '../../assets/LandingPage.jpg'
@@ -31,7 +32,7 @@ const LandingPage = () => {
       </div>
       <div className="lp-text-sub">Easily host and share events with your friends across any social media.</div>
         <img src={LPImg} alt="Landing Page" className="lp-img" />
-        <button className="lp-button">🎉 Create my event</button>
+        <Link to='/create'><button className="lp-button">🎉 Create my event</button></Link>
     </Container>
   )
 }

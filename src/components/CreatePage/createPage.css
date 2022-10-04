@@ -1,0 +1,83 @@
+.cp-cont {
+    position: absolute;
+    background-color: #f2f2f2;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cp-text {
+    font-family: 'Helvetica';
+    font-size: 36px;
+    font-weight: 700;
+    color: #240D57;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cp-textDiv {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.cp-form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.cp-form-row{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.cp-label{
+    font-family: 'Helvetica';
+    font-size: 16px;
+    font-weight: 700;
+    color: #240D57;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cp-input{
+    width: 200px;
+    height: 30px;
+    font-family: 'Helvetica';
+    font-size: 16px;
+    background-color: #ede5ff;
+    color: #240D57;
+    border-radius: 4px;
+}
+
+.cp-button {
+    margin-top: 50px;
+    width: 187px;
+    height: 50px;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    filter: drop-shadow(0px 0px 17.6435px rgba(0, 0, 0, 0.05));
+}
+
+.cp-link{
+    margin-top: 20px;
+}

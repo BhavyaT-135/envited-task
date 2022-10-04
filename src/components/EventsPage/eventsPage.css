@@ -35,6 +35,7 @@
 
 .ep-text-sub{
     margin-top: 5px;
+    margin-left: 5px;
     color: #828282;
     font-family: 'Helvetica';
     font-weight: 400;
@@ -43,6 +44,8 @@
 }
 
 .ep-row-flex{
+    padding: 5px;
+    justify-content: space-between;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -51,10 +54,11 @@
 }
 
 .ep-col-flex{
+    margin-left: 15px;
     text-align: left;
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 80%;
     height: auto;
 }
 
@@ -72,4 +76,18 @@
     font-size: 18px;
     line-height: 21px;
     color: #4F4F4F;
+}
+
+.ep-icons{
+    font-size: 40px;
+    color: #8456ec;
+    border: #f6f2ff solid 2px;
+    border-radius: 1px;
+    padding: 5px;
+}
+
+.ep-arrow{
+    font-size: 25px;
+    color: #bdbdbd;
+    right: 30px;
 }
